@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Аналитик и Экономист</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-wrapper">
+            <a href="#" class="logo">Portfolio.</a>
+            <nav class="nav">
+                <a href="#about">Обо мне</a>
+                <a href="#projects">Проекты</a>
+                <a href="#skills">Навыки</a>
+                <a href="#contact">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="hero container">
+        <div class="hero-content">
+            <h1>Привет, я <span class="highlight">Экономист и Дата-Аналитик</span></h1>
+            <p>Специализируюсь на анализе данных, эконометрике и международных экономических отношениях. Решаю задачи бизнеса с помощью математического моделирования и аналитики.</p>
+            <a href="#projects" class="btn btn-primary">Смотреть работы</a>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title">Мои проекты</h2>
+        <div class="projects-grid">
+            <!-- Проект 1 -->
+            <div class="card">
+                <h3>Прогнозирование стоимости недвижимости</h3>
+                <p>Разработка модели машинного обучения с использованием нейросетей для оценки рыночной стоимости объектов на основе их атрибутов.</p>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Machine Learning</span>
+                </div>
+            </div>
+            <!-- Проект 2 -->
+            <div class="card">
+                <h3>Анализ нетарифных ограничений в торговле</h3>
+                <p>Исследование механизмов регулирования, анализ динамики внешнеторгового оборота и оценка влияния торговой политики (ЕАЭС, ВТО).</p>
+                <div class="tags">
+                    <span class="tag">ВЭД</span>
+                    <span class="tag">Экономика</span>
+                </div>
+            </div>
+            <!-- Проект 3 -->
+            <div class="card">
+                <h3>Эконометрическое моделирование</h3>
+                <p>Построение регрессионных моделей, проверка статистических гипотез и тестирование на гетероскедастичность (тест Уайта).</p>
+                <div class="tags">
+                    <span class="tag">EViews</span>
+                    <span class="tag">Статистика</span>
+                </div>
+            </div>
+            <!-- Проект 4 -->
+            <div class="card">
+                <h3>Оптимизация производственной загрузки</h3>
+                <p>Анализ структуры промышленного предприятия и расчет оптимальной загрузки оборудования методами линейного программирования.</p>
+                <div class="tags">
+                    <span class="tag">MS Excel</span>
+                    <span class="tag">Поиск решения</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2 class="section-title">Ключевые инструменты и навыки</h2>
+        <div class="skills-wrapper">
+            <div class="skill-box">Анализ данных (Python, EViews)</div>
+            <div class="skill-box">Продвинутый Excel & Оптимизация</div>
+            <div class="skill-box">Международная торговля (ВЭД)</div>
+            <div class="skill-box">Основы веб-разработки (HTML/CSS)</div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container footer-content">
+            <h2>Свяжитесь со мной</h2>
+            <p>Я открыт к новым проектам, стажировкам и профессиональному сотрудничеству.</p>
+            <a href="mailto:your.email@example.com" class="btn btn-secondary">Написать на почту</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
